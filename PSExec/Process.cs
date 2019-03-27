@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 
 namespace PSExec
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Process : IDisposable
     {
         public bool Use64Bit { get; set; } = true;
