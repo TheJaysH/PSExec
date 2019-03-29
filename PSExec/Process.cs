@@ -14,8 +14,7 @@ namespace PSExec
     /// </summary>
     public class Process : IDisposable
     {
-        public bool Use64Bit { get; set; } = true;
-    
+        public bool Use64Bit { get; set; } = true;    
         private System.Diagnostics.Process PsExecProcess { get; set; }
 
         #region Constructors
